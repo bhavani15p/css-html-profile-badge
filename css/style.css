@@ -1,0 +1,35 @@
+body{
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/bg-image.webp");
+}
+.badge{
+    width: 260px;
+    background-color: white;
+    margin:  100px auto;
+    text-align: center;
+    font-family: Arial;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+
+}
+
+.badge img{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    border-radius: 50px;
+}
+
+.badge a{
+    display: inline-block;
+    color:red;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.badge #email{
+color: black;
+}
